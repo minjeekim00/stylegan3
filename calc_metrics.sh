@@ -1,0 +1,1 @@
+python calc_metrics.py --metrics=fid50k_full --data=./dataset/ffhq-1024x1024.zip --mirror=1 --network=https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/stylegan3-t-ffhq-1024x1024.pkl
