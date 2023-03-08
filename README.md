@@ -11,6 +11,12 @@ Clone this repository by running this:
 git clone https://github.com/minjeekim00/stylegan3.git
 ```
 
+Change your current directory to stylegan3 code
+```.bash
+cd stylegan3
+```
+
+
 **Docker**: You can run the above curated image example using Docker as follows:
 ```.bash
 # Run Docker container:
