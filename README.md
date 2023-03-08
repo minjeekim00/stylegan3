@@ -6,7 +6,7 @@
 
 ## Getting started
 **Git**
-Clone this repository by running
+Clone this repository by running this:
 ```.bash
 git clone https://github.com/minjeekim00/stylegan3.git
 ```
