@@ -7,11 +7,8 @@
 ## Getting started
 **Docker**: You can run the above curated image example using Docker as follows:
 ```.bash
-# Build the stylegan3:latest image
-docker build --tag stylegan3 .
-
 # Run Docker container:
-docker run --gpus all -it --rm --user $(id -u):$(id -g) -v `pwd`:/workspace --workdir /workspace -e HOME=/workspace  stylegan3 bash
+docker run --gpus all -it --rm --user $(id -u):$(id -g) -v `pwd`:/workspace --workdir /workspace -e HOME=/workspace  m40030811/stylegan3 bash
 ```
 
 ## Generate images
