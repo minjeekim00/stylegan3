@@ -33,12 +33,7 @@ python calc_metrics.py --metrics=fid50k_full --data=./datasets/ffhq-1024x1024.zi
 ## Generate images
 ```.bash
 # Generate an image using pre-trained FFHQ model (1024 x 1024 resolution).
-python gen_images.py --outdir=out --trunc=1 --seeds=2 \
-    --network=https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/stylegan3-r-ffhq-1024x1024.pkl
-
-#or
-
-python gen_images.py --outdir=out --trunc=1 --seeds=0-999 \
+python gen_images.py --outdir=out2 --trunc=1 --seeds=0-99 \
     --network=https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/stylegan3-r-ffhq-1024x1024.pkl
 ```
 
